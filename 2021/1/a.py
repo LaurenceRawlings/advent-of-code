@@ -1,4 +1,4 @@
-with open('1.input', 'r') as f:
+with open('a.input', 'r') as f:
     data = list(map(int, f.readlines()))
 
 last = data.pop(0)

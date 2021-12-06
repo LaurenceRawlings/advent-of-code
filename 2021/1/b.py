@@ -1,4 +1,4 @@
-with open('2.input', 'r') as f:
+with open('b.input', 'r') as f:
     tmp = list(map(int, f.readlines()))
     data = list(map(sum, list(zip(tmp[:], tmp[1:], tmp[2:]))))
 
